@@ -1,0 +1,44 @@
+#header {
+    height: 50px;
+    text-align: center;
+    background-color: #dadadad4;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#header li {
+    display: inline-block;
+    background-color: #bfbfbf;
+    top: 10px;
+    position: relative;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#header a {
+    text-decoration: none;
+    color: #222325;
+}
+
+.main-content {
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+}
+
+.login-page {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.question {
+    padding: 10px;
+}
+
+.questionKind {
+    max-width: 300px;
+}
+
